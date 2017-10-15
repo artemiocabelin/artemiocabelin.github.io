@@ -151,4 +151,7 @@
   .overlay-bg {
     background: none;
   }
+  #features .box-item{
+    text-align: center;
+  }
 }
