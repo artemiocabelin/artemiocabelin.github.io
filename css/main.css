@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
 body {
   font-family: 'Lato', sans-serif;
@@ -196,7 +197,7 @@ a:not([href]):not([tabindex]):hover {
   padding: 3px;
 }
 .menu-bg .menu-button {
-  top: 0;
+  top: 5px;
 }
 .menu-bg .menu-button:hover {
   cursor: pointer;
@@ -1286,6 +1287,28 @@ footer {
 .contact-wrap a:hover:before{
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+.header-logo {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  width: 7%;
+  min-width: 60px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.perma-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.enlarged {
+  font-size: 35px;
+  vertical-align: middle;
 }
 
 /*--------------------------------*/

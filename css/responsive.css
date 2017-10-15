@@ -74,8 +74,29 @@
     padding: 80px 0 60px;
   }
   #video-area .contents h1 {
-    font-size: 18px;
+    font-size: 23px;
     line-height: 32px;
+    padding-top: 42px;
+  }
+  #video-area .contents p {
+    font-size: 18px;
+  }
+
+  .menu-button {
+    top: 24px;
+    right: 8px;
+  }
+
+  .menu-wrap {
+    width: 120px;
+  }
+
+  .menu-bg .logo-menu a {
+    margin-left: -4px;
+  }
+
+  .menu-bg .menu-button {
+    top: 15px;
   }
   .video-promo .video-promo-content h2 {
     font-size: 18px;
