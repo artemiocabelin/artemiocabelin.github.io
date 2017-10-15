@@ -195,9 +195,13 @@ a:not([href]):not([tabindex]):hover {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   z-index: 999;
   padding: 3px;
+    -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .menu-bg .menu-button {
-  top: 5px;
+  top: 20px;
 }
 .menu-bg .menu-button:hover {
   cursor: pointer;
