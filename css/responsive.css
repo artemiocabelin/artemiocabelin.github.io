@@ -124,4 +124,31 @@
     height: 36px;
     line-height: 36px;
   }
+  .overlay .item-icon {
+    visibility: visible;
+    opacity: 100;
+    color: black;
+    top: 39%;
+  }
+  .hidden-on-normal-view {
+    display:block;
+    background: black;
+    margin-top: 74%;
+    width: 80px;
+  }
+  .hidden-on-normal-view:before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    top: 94%;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background: black;
+    left: 47%;
+  }
+  .overlay-bg {
+    background: none;
+  }
 }

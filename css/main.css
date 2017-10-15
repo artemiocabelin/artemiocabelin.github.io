@@ -553,7 +553,7 @@ a:not([href]):not([tabindex]):hover {
 .overlay .item-icon {
   height: 100%;
   width: 100%;
-  line-height: 35.25px;
+  line-height: 24.25px;
   color: #fff;
   left: 0%;
   /*margin-left: -24px;*/
@@ -1314,6 +1314,10 @@ footer {
 .enlarged {
   font-size: 35px;
   vertical-align: middle;
+}
+
+.hidden-on-normal-view {
+  display: none;
 }
 
 /*--------------------------------*/
