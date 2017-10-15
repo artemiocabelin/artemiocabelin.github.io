@@ -148,6 +148,9 @@
     background: black;
     left: 47%;
   }
+  .shot-item .overlay:before, .shot-item .overlay:after {
+    background: none;
+  }
   .overlay-bg {
     background: none;
   }
