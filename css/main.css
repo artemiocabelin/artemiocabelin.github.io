@@ -811,7 +811,8 @@ a:not([href]):not([tabindex]):hover {
    Counter Section Style
    ========================================================================== */
 .counters {
-  background: url(../img/bg1.jpg) fixed;
+  background: url(http://res.cloudinary.com/rockafella20/image/upload/v1508062685/maliha-mannan-63635_ka1bml.jpg) fixed;
+  background-size: cover;
   position: relative;
 }
 .counters .facts-item {
