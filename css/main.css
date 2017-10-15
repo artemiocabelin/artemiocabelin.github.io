@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
@@ -123,6 +124,14 @@ a:not([href]):not([tabindex]):hover {
   color: #0d3559;
   position: relative;
 }
+.section-header .section-contact {
+  font-size: 42px;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #fff;
+  position: relative;
+}
 .section-header .section-title span {
   color: #4676fa;
 }
@@ -139,6 +148,13 @@ a:not([href]):not([tabindex]):hover {
   border-top: 2px solid #346afe;
   margin-top: 15px;
 }
+.section-header .contact-lines {
+  margin: auto;
+  width: 70px;
+  position: relative;
+  border-top: 2px solid #fff;
+  margin-top: 15px;
+}
 .section-header .lines:before {
   position: absolute;
   content: "";
@@ -149,6 +165,18 @@ a:not([href]):not([tabindex]):hover {
   border: 4px solid #fff;
   border-radius: 50%;
   background: #4676fa;
+  left: 27px;
+}
+.section-header .contact-lines:before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  top: -6px;
+  /*border: 4px solid #fff;*/
+  border-radius: 50%;
+  background: #fff;
   left: 27px;
 }
 /* ==========================================================================
@@ -518,26 +546,27 @@ a:not([href]):not([tabindex]):hover {
   opacity: 0.8;
 }
 .overlay .item-icon {
-  height: 48px;
-  width: 48px;
-  line-height: 48px;
+  height: 100%;
+  width: 100%;
+  line-height: 35.25px;
   color: #fff;
-  left: 50%;
-  margin-left: -24px;
-  margin-top: -24px;
-  top: 50%;
+  left: 0%;
+  /*margin-left: -24px;*/
+  /*margin-top: -24px;*/
+  top: 0%;
   position: absolute;
   z-index: 2;
   visibility: hidden;
   opacity: 0;
   cursor: pointer;
   text-align: center;
-  font-size: 24px;
+  font-size: 14px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   border-radius: 4px;
+  padding: 35px;
 }
 .shot-item:hover .item-icon {
   visibility: visible;
@@ -1211,3 +1240,52 @@ footer {
     -webkit-transform: scale(1);
   }
 }
+
+
+/*------------Art's Custom css-----------------*/
+
+.contact-list a:before{
+	background: #fff;
+	content: "";
+	height: 1px;
+	left: 32%;
+	position: absolute;
+	top: 100%;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	width: 35%;
+}
+.contact-list-extended a:before{
+	background: #fff;
+	content: "";
+	height: 1px;
+	left: 7%;
+	position: absolute;
+	top: 100%;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	width: 85%;
+}
+.contact-list-phone a:before{
+	background: #fff;
+	content: "";
+	height: 1px;
+	left: 22%;
+	position: absolute;
+	top: 100%;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	width: 55%;
+}
+.contact-wrap a:hover:before{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/*--------------------------------*/
