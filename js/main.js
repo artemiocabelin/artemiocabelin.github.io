@@ -104,15 +104,15 @@
           }
       });
 
-        var $stickyNav = $('.header-top-area');
+        // var $stickyNav = $('.fixed-top');
 
-        $stickyNav.waypoint(function (direction) {
-            if (direction == 'down') {
-                $stickyNav.addClass('menu-bg');
-            } else {
-                $stickyNav.removeClass('menu-bg');
-            }
-        })
+        // $stickyNav.waypoint(function (direction) {
+        //     if (direction == 'down') {
+        //         $stickyNav.addClass('menu-bg');
+        //     } else {
+        //         $stickyNav.removeClass('menu-bg');
+        //     }
+        // })
 
   });
 
