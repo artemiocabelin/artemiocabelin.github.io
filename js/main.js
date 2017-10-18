@@ -42,6 +42,8 @@
         }
     });
 
+
+
 /* 
    VIDEO POP-UP
    ========================================================================== */
@@ -101,6 +103,16 @@
               $('.fixed-top').removeClass('menu-bg');
           }
       });
+
+        var $stickyNav = $('.header-top-area');
+
+        $stickyNav.waypoint(function (direction) {
+            if (direction == 'down') {
+                $stickyNav.addClass('menu-bg');
+            } else {
+                $stickyNav.removeClass('menu-bg');
+            }
+        })
 
   });
 
