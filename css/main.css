@@ -1320,4 +1320,11 @@ footer {
   display: none;
 }
 
+.fixed-top {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
 /*--------------------------------*/
